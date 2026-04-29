@@ -1,11 +1,56 @@
-﻿venv/
+﻿@"
+# Virtual environment
+venv/
+
+# Dataset (too large for git)
 data/
+
+# Trained model checkpoints
 checkpoints/
+
+# Python cache
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-wandb/
-*.egg-info/
-.env
+*.pyo
+*.pyd
+.Python
 
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# W&B logs
+wandb/
+
+# Package build artifacts
+*.egg-info/
+dist/
+build/
+
+# Environment secrets
+.env
 env.ps1
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled extensions
+*.so
+*.dll
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
