@@ -7,3 +7,5 @@ __pycache__/
 wandb/
 *.egg-info/
 .env
+
+env.ps1
