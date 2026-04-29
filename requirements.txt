@@ -1,0 +1,12 @@
+﻿--index-url https://download.pytorch.org/whl/cu121
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+
+--extra-index-url https://pypi.org/simple
+numpy==1.26.4
+numba==0.59.1
+matplotlib==3.8.4
+wandb==0.17.0
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+requests==2.31.0
