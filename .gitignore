@@ -2,8 +2,8 @@
 # Virtual environment
 venv/
 
-# Dataset (too large for git)
-data/
+# Dataset (too large for git) — root data/ only
+/data/
 
 # Trained model checkpoints
 checkpoints/
@@ -41,10 +41,6 @@ desktop.ini
 .idea/
 *.swp
 *.swo
-
-# Compiled extensions
-*.so
-*.dll
 
 # Logs
 *.log
